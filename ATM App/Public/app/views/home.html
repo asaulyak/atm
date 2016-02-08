@@ -1,0 +1,17 @@
+<div class="ui raised very padded text container segment">
+	<h2 class="ui header aligned center">Please enter your credit card number</h2>
+	<p></p>
+	<p></p>
+	<div class="ui container ">
+		<div class="ui right labeled left icon input fluid">
+			<i class="visa icon"></i>
+			<input type="text" placeholder="Enter card number" id="card-number" readonly ng-model="card.cardNumber" card-number-format/>
+			<a class="ui tag label">
+				Card Number
+			</a>
+		</div>
+	</div>
+
+	<div class="ui segment aligned center container num buttons" ng-include="'Public/app/views/keyboard.html'"></div>
+</div>
+

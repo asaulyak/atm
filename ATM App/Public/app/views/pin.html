@@ -1,0 +1,32 @@
+<div class="ui raised very padded text container segment">
+	<h2 class="ui header aligned center">
+		<div class="content">
+			Please enter pin code for card
+			<div class="sub header" ng-bind="card.cardNumber | cardNumber"></div>
+		</div>
+	</h2>
+
+
+	<p></p>
+	<p></p>
+	<div class="ui container ">
+		<div class="ui right labeled left icon input fluid">
+			<input type="password" placeholder="Enter pin code" readonly ng-model="card.pinCode"/>
+			<a class="ui tag label">
+				Pin
+			</a>
+		</div>
+	</div>
+
+	<div class="ui segment aligned center container num buttons" ng-include="'Public/app/views/keyboard.html'"></div>
+    <div class="ui negative message" ng-show="error">
+        <i class="close icon"></i>
+        <div class="header">
+            You've entered incorrect pin
+        </div>
+        <p>
+            Try again
+        </p>
+    </div>
+</div>
+

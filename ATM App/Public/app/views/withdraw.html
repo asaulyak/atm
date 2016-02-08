@@ -1,0 +1,22 @@
+<div class="ui raised very padded text container segment">
+	<h2 class="ui header aligned center">Withdraw money</h2>
+	<p></p>
+	<p></p>
+	<div class="ui container ">
+		<div class="ui right labeled left icon input fluid">
+			<i class="money icon"></i>
+			<input type="text" placeholder="Enter sum" readonly ng-model="sum" currency="$"/>
+			<a class="ui tag label">
+				Enter sum
+			</a>
+		</div>
+	</div>
+
+	<div class="ui segment aligned center container num buttons" ng-include="'Public/app/views/keyboard.html'"></div>
+	<div class="ui vertical labeled icon buttons basic fluid">
+		<a class="ui button" href="#/sessions/{{session}}/close">
+			<i class="power icon"></i>
+			Exit
+		</a>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+.ui.num.buttons > .container {
+	width: 210px;
+	padding: 20px 0 20px
+}
+
+.ui.num.buttons > .container >.button {
+	margin: 5px;
+	width: 60px;
+}

@@ -1,0 +1,20 @@
+﻿<div class="ui raised very padded text container segment">
+    <h5 class="ui header aligned right" ng-bind="operation.date | date: 'dd.MM.yyyy'"></h5>
+    <h2 class="ui header aligned center">Card Number</h2>
+    <h3 class="ui header aligned center" ng-bind="operation.cardNumber | cardNumber"></h3>
+    <h2 class="ui header aligned center">Current Balance</h2>
+    <h2 class="ui header aligned center" ng-bind="operation.balance | currency: '$'"></h2>
+    <h2 class="ui header aligned center">Withdrawal amount</h2>
+    <h2 class="ui header aligned center" ng-bind="operation.balanceBefore - operation.balance | currency: '$'"></h2>
+
+    <div class="ui vertical labeled icon buttons basic fluid">
+        <a class="ui button" href="#/withdraw/{{session}}">
+            <i class="arrow left icon"></i>
+            Back
+        </a>
+        <a class="ui button">
+            <i class="power icon" href="#/sessions/{{session}}/close"></i>
+            Exit
+        </a>
+    </div>
+</div>

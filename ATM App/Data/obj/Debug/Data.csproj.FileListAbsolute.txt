@@ -1,0 +1,10 @@
+D:\Projects\ATM\ATM App\Data\bin\Debug\Data.dll
+D:\Projects\ATM\ATM App\Data\bin\Debug\Data.pdb
+D:\Projects\ATM\ATM App\Data\bin\Debug\EntityFramework.dll
+D:\Projects\ATM\ATM App\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ATM\ATM App\Data\bin\Debug\EntityFramework.xml
+D:\Projects\ATM\ATM App\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ATM\ATM App\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Projects\ATM\ATM App\Data\obj\Debug\Data.dll
+D:\Projects\ATM\ATM App\Data\obj\Debug\Data.pdb
+D:\Projects\ATM\ATM App\Data\bin\Debug\Data.dll.config

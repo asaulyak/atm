@@ -1,0 +1,6 @@
+<div class="ui container" ng-controller="KeyboardController as keyboard">
+	<button class="ui basic button" ng-repeat="button in buttons track by button.value"
+	        title="{{button.value}}" value="{{button.value}}" ng-click="onButtonClick(button)">
+		{{button.value}}
+	</button>
+</div>
